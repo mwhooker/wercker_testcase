@@ -1,1 +1,6 @@
-box: wercker/default
+box: wercker/python
+build:
+    steps:
+        - script:
+            name: test
+            code: echo "hi"
